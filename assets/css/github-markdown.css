@@ -156,12 +156,12 @@
 }*/
 .markdown-body a {
   transition-duration: .3s;
-  color: #e24407;
+  color: #9A85FF;
 }
 .markdown-body a:active,
 .markdown-body a:hover {
   transition-duration: .3s;
-  color: #345678;
+  color: #e24407;
 }
 
 .markdown-body strong {
