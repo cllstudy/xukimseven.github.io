@@ -82,7 +82,7 @@ disqus_url: 'https://talkcock.disqus.com/embed.js'
 livere: true
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg=='
 # Gitment评论 OAuth Application
-Gitment: false
+Gitment: true
 Gitment_owner: 'xukimseven'  # github用户名
 Gitment_repo: 'xukimseven.github.io'  # github博客存放的仓库名
 client_id: '72361128c7951f78f718'  # 注册 OAuth Application 后获得的 client_id
