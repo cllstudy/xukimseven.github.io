@@ -336,6 +336,8 @@ a{
     background-color: white;
     border-radius: 3px;
     border: 1px solid #e7eaf1;
+    -webkit-box-shadow: 0 1px 3px rgba(0,37,55,.06);
+            box-shadow: 0 1px 3px rgba(0,37,55,.06);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-transition-duration: .4s;
