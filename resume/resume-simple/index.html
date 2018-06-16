@@ -29,7 +29,7 @@
 			transition-duration: .5;
 		}
 		.main,.center,.resumeMain,.name,.line,.area,
-		.area ul li,.works{
+		.area ul li,.works,#download{
 			-webkit-box-sizing: border-box;
 					box-sizing: border-box;
 		}
@@ -210,6 +210,25 @@
 			left: 0;
 			background-color: #00c192;
 		}
+
+		#download{
+			display: block;
+			height: 40px;
+			width: 150px;
+			border-radius: 5px;
+			background-color: white;
+			color: #00c192;
+			border: 2px solid #00c192;
+			margin: 20px auto 0;
+			line-height: 36px;
+			text-align: center;
+			transition-duration: .5s;
+		}
+		#download:hover{
+			background-color: #00c192;
+			color: white;
+			transition-duration: .5s;
+		}
 	</style>
 </head>
 <body>
@@ -228,6 +247,7 @@
 							<br>&emsp;&emsp;亦或是关注我的GitHub主页 <a href="https://github.com/xukimseven">Github</a> ,这里有我近期上传的小项目 。</span>
 					</div>
 				</div>
+
 				<h2>基 本 信 息<div class="line"></div></h2>
 				<div class="area">
 					<table>
@@ -377,6 +397,8 @@
 						</li>
 					</ul>
 				</div>
+				
+				<a href="./徐金琦的个人简历-resume.pdf" download="徐金琦的个人简历" id="download">下载我的简历</a>
 			</div>
 		</div>
 	</div>
