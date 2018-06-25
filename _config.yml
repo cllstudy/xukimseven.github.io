@@ -39,7 +39,8 @@ SNS: true
 SNS-icon: #['facebook', 'weibo', 'QQ', 'github', 'Dribbble', 'twitter', 'instagram', 'weixin']
   mail: 'mailto:xujinqi7@gmail.com'
   weixin: '/assets/scan/wechat.JPG'
-  QQ: '/assets/scan/qq.JPG'
+  # QQ: '/assets/scan/qq.JPG'
+  QQ: 'http://wpa.qq.com/msgrd?v=3&uin=1209973867&site=qq&menu=yes'
   weibo: 'http://weibo.com/u/5655278647'
   instagram: 'https://www.instagram.com/xseven_0120/'
   twitter: 'http://twitter.com/xukim777'
