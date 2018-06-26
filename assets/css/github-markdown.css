@@ -728,3 +728,10 @@
 .markdown-body hr {
   border-bottom-color: #eee;
 }
+
+
+@media screen and (max-width: 500px){
+  .markdown-body h2{
+    border-left: 4px solid rgb(255,210,32);
+  }
+}
