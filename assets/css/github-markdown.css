@@ -158,7 +158,7 @@
 .markdown-body a {
   transition-duration: .3s;
   color: #9A85FF;
-  font-weight: 400px;
+  font-weight: bold;
 }
 .markdown-body a:active,
 .markdown-body a:hover {
