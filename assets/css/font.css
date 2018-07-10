@@ -77,3 +77,15 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'operatormono';
+    src: url('../fonts/operatormono/operatormono.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/operatormono/operatormono.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/operatormono/operatormono.woff2') format('woff2'),
+         url('../fonts/operatormono/operatormono.woff') format('woff'),/* Modern Browsers */
+         url('../fonts/operatormono/operatormono.ttf') format('truetype'),/* Safari, Android, iOS */
+         url('../fonts/operatormono/operatormono.svg#operatormono') format('svg');/* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
