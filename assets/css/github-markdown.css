@@ -351,8 +351,9 @@
 .markdown-body code {
   /*font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;*/
   /*font-family: 'Ubuntu', sans-serif;*/
-  /*font-family: RobotoMono;*/
-  font-family: operatormono;
+  font-family: RobotoMono;
+  /*font-family: operatormono;*/
+  /*font-family: Ubuntu;*/
   font-size: 28px;
   /*font-weight: bold;*/
 }
@@ -362,8 +363,9 @@
   margin-bottom: 0;
   /*font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;*/
   /*font-family: 'Ubuntu', sans-serif;*/
-  /*font-family: RobotoMono;*/
-  font-family: operatormono;
+  font-family: RobotoMono;
+  /*font-family: operatormono;*/
+  /*font-family: Ubuntu;*/
   font-size: 28px;
   /*font-weight: bold;*/
 }
