@@ -42,7 +42,7 @@ SNS-icon: #['facebook', 'weibo', 'QQ', 'github', 'Dribbble', 'twitter', 'instagr
   # QQ: '/assets/scan/qq.JPG'
   QQ: 'http://wpa.qq.com/msgrd?v=3&uin=1209973867&site=qq&menu=yes'
   weibo: 'http://weibo.com/u/5655278647'
-  instagram: 'https://www.instagram.com/xseven_0120/'
+  instagram: 'https://www.instagram.com/xseven_0210/'
   twitter: 'http://twitter.com/xukim777'
   github: 'https://github.com/xukimseven'
   Dribbble: 'https://dribbble.com/xSeven'
@@ -53,7 +53,7 @@ SNS-icon: #['facebook', 'weibo', 'QQ', 'github', 'Dribbble', 'twitter', 'instagr
   # twitch: ''
 
 # 分页
-paginate: 7
+paginate: 5
 paginatepath: ['page:num']
 
 # since
@@ -67,7 +67,7 @@ kramdown:
 # 代码高亮 使用rouge
 highlighter: rouge
 # 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
-pygmentsTheme: 'default'
+pygmentsTheme: 'autumn'
 
 # 友情链接
 friends:
