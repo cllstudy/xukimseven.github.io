@@ -349,11 +349,10 @@
 }
 
 .markdown-body code {
-  /*font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;*/
-  /*font-family: 'Ubuntu', sans-serif;*/
   /*font-family: RobotoMono;*/
   /*font-family: operatormono;*/
-  font-family: 'YaHei Consolas Hybrid';
+  /*font-family: 'YaHei Consolas Hybrid';*/
+  font-family: 'DankMonoNormal';
   font-size: 28px;
   /*font-weight: bold;*/
 }
@@ -361,11 +360,10 @@
 .markdown-body pre {
   margin-top: 0;
   margin-bottom: 0;
-  /*font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;*/
-  /*font-family: 'Ubuntu', sans-serif;*/
   /*font-family: RobotoMono;*/
   /*font-family: operatormono;*/
-  font-family: 'YaHei Consolas Hybrid';
+  /*font-family: 'YaHei Consolas Hybrid';*/
+  font-family: 'DankMonoNormal';
   font-size: 28px;
   /*font-weight: bold;*/
 }
@@ -678,7 +676,8 @@
   line-height: 1.45;
   /*背景色改动*/
   /*background-color: #f6f8fa;*/
-  background-color: #fafbfc;
+  /*background-color: #fafbfc;*/
+  background-color: #1d1e22;
   border-radius: 3px;
 }
 
