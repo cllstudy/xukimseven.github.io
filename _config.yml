@@ -45,13 +45,13 @@ SNS-icon: #['facebook', 'weibo', 'qq', 'github', 'Dribbble', 'twitter', 'instagr
   instagram: 'https://www.instagram.com/xseven_0210/'
   twitter: 'http://twitter.com/xukim777'
   github: 'https://github.com/xukimseven'
-  Dribbble: 'https://dribbble.com/xSeven'
-  facebook: ''
-  Google: ''
-  zhihu: ''
-  juejin: ''
-  twitch: ''
-  Codepen: ''
+  Codepen: 'https://codepen.io/xukimseven/'
+  # Dribbble: ''
+  # Facebook: ''
+  # Google: ''
+  # zhihu: ''
+  # juejin: ''
+  # twitch: ''
 
 # 分页
 paginate: 5
