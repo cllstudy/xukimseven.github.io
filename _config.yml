@@ -1,5 +1,5 @@
 # Site settings 配置站点
-title: '⌘鸡哥⌘的博客'
+title: '徐金琦的博客'
 description: 'Just for fun !'
 keywords: '徐金琦, 徐金琦的独立博客, 徐金琦的博客, 前端,  前端博客, javascript, 操作系统, ubuntu, 网络'
 url: 'https://xukimseven.github.io' # your host
@@ -9,7 +9,7 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   首页: '/'
   标签: '/tags.html'
   时间线: '/timeline.html'
-  关于鸡哥: '/about.html'
+  关于博主: '/about.html'
   个人简历: '/resume/index.html'
   友情链接: '/friendLink.html'
 
@@ -17,8 +17,8 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 author: true
 name: '徐金琦'
 NickName: 'xSeven'
-webtitle: '#_7'
-bio: '一个大三的小学生'
+webtitle: 'xSeven'
+bio: '一个前端小学生'
 about: true
 aboutyou: '&emsp;&emsp;本人就读于 [ <a href="http://www.zjwu.net/">浙江万里学院</a> ]，是个计算机专业的大三小学生（2018年）。爱好有多多，看篮球足球、
         打篮球、看动漫、看综艺以及写前端、设计前端。关于我的项目可以点击下方的 github 图标进入我的主页查看，也可以
@@ -67,7 +67,7 @@ kramdown:
 # 代码高亮 使用rouge
 highlighter: rouge
 # 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
-pygmentsTheme: 'autumn'
+pygmentsTheme: 'emacs'
 
 # 友情链接
 friends:
