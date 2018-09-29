@@ -285,7 +285,7 @@
 }
 .markdown-body h1::after{
   content:"h1";
-  color: #555;
+  color: #999;
   position: absolute;
   display: block;
   font-size: 14px;
@@ -307,7 +307,7 @@
 }
 .markdown-body h2::after{
   content:"h2";
-  color: #555;
+  color: #999;
   position: absolute;
   display: block;
   font-size: 14px;
@@ -329,7 +329,7 @@
 }
 .markdown-body h3::after{
   content:"h3";
-  color: #555;
+  color: #999;
   position: absolute;
   display: block;
   font-size: 13px;
@@ -350,7 +350,7 @@
 }
 .markdown-body h4::after{
   content:"h4";
-  color: #555;
+  color: #999;
   position: absolute;
   display: block;
   font-size: 13px;
