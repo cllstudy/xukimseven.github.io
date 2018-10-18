@@ -131,6 +131,7 @@
 		tr{
 		    height:40px;
 		    width: 100%;
+		    text-align: center;
 		}
 
 		.area ul li{
@@ -156,16 +157,28 @@
 			width: 100%;
 		}*/
 		.area ul a li{
-			margin: 0 2.35%;
+			margin: 10px 2.35%;
 		}
 		.area ul a:nth-child(1) li .img{
-			background-image: url(1.png);
+			background-image: url(HardCandy.png);
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
 		}
 		.area ul a:nth-child(2) li .img{
-			background-image: url(2.png);
+			background-image: url(soulmusic.png);
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.area ul a:nth-child(3) li .img{
+			background-image: url(hkb.png);
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.area ul a:nth-child(4) li .img{
+			background-image: url(system.png);
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -229,6 +242,32 @@
 			color: white;
 			transition-duration: .5s;
 		}
+
+		.minTitle{
+			height: 40px;
+			width: 120px;
+			box-sizing: border-box;
+			padding: 0 10px;
+			background-color: #00c192;
+			margin-bottom: 20px;
+			margin-top: 20px;
+			color: white;
+			font-size: 20px;
+			line-height: 40px;
+
+			position: relative;
+		}
+		.minTitle::before{
+			content: '';
+			height: 0;
+			width: 0;
+			position: absolute;
+			left: 0;
+			top: -10px;
+
+			border-bottom: 10px solid #00a063;
+	        border-left: 30px solid transparent;		
+	    }
 	</style>
 </head>
 <body>
@@ -242,7 +281,7 @@
 					</div>
 					<div class="name">
 						<h1>姓名：徐 金 琦</h1>
-						<span>&emsp;&emsp;本人就读于 [ 浙江万里学院 ]，是个计算机专业的大三小学生（2018年）。爱好有多多，看篮球足球、 打篮球、看动漫、看综艺以及写前端、设计前端。
+						<span>&emsp;&emsp;本人就读于 [ 浙江万里学院 ]，是个计算机专业的大四小学生（2018年）。爱好有多多，看篮球足球、 打篮球、看动漫、看综艺以及写前端、设计前端。
 							<br>&emsp;&emsp;想要了解更多的我，欢迎关注在我的 <a href="http://xseven.me">个人博客</a> 。 
 							<br>&emsp;&emsp;亦或是关注我的GitHub主页 <a href="https://github.com/xukimseven">Github</a> ,这里有我近期上传的小项目 。</span>
 					</div>
@@ -265,7 +304,7 @@
 						</tr>
 						<tr>
 							<td><a href="tel:17857024660">17857024660</a></td>
-							<td><a href="mailto:xujinqi7@gmail.com">xujinqi@gmail.com</a></td>
+							<td><a href="mailto:xujinqi7@gmail.com">xujinqi7@gmail.com</a></td>
 						</tr>
 					</table>
 				</div>
@@ -302,7 +341,7 @@
 								<svg class="icon" aria-hidden="true">
 								  <use xlink:href="#icon-ai-calendar"></use>
 								</svg>
-								1个月内到岗
+								一周内到岗
 							</td>
 						</tr>
 					</table>
@@ -319,14 +358,27 @@
 					</table>
 				</div>
 
+				<h2>就 业 背 景<div class="line"></div></h2>
+				<div class="area">
+					<table>
+						<tr>
+							<td>浙江中吉恒通网络科技有限公司</td>
+							<td>web前端</td>
+							<td>2018.6.25 - 2018.10.15</td>
+						</tr>
+					</table>
+				</div>
+
 				<h2>作 品 展 示<div class="line"></div></h2>
 				<div class="area">
 					<ul>
 						<a href="https://github.com/xukimseven/HardCandy-Jekyll"><li><div class="img"></div>
 							<div class="works">
 								<h3>HardCandy-Jekyll</h3>
-								<span>
-									一款清新 糖果色🍬 的 ‘Jekyll’ 主题。A candy-colored 🍬 ‘Jekyll’ theme. 
+								<span style="float: left;">
+									一款清新 糖果色🍬 的 ‘Jekyll’ 主题。 <br>
+									A candy-colored 🍬 ‘Jekyll’ theme.  <br>
+									&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;—— 目前获 star 数为 38 （2018-10-18）
 								</span>
 							</div>
 						</li></a>
@@ -339,62 +391,107 @@
 								</span>
 							</div>
 						</li></a>
+						<a href="javascript:;"><li><div class="img"></div>
+							<div class="works">
+								<h3>还卡宝</h3>
+								<span>
+									这是本人就业以来做的第一个项目，是一个 微信小程序 ，前端部分由个人独立开发。用手机扫码即可查看小程序。
+								</span>
+							</div>
+						</li></a>
+						<a href="javascript:;"><li><div class="img"></div>
+							<div class="works">
+								<h3>多个公司后台管理系统</h3>
+								<span>
+									该部分为公司的后台管理系统，由于零零散散，且多在公司内网运行。所以，没有具体的可见网址供参考。
+								</span>
+							</div>
+						</li></a>
 					</ul>
 				</div>
 
 				<h2>技 能 特 长<div class="line"></div></h2>
 				<div class="area">
-					<ul>
+					<div class="minTitle">
+						主 要 技 	能
+					</div>
+					<ul id="mainSkill">
 						<li>
 							<span>css3</span>
 							<span>精 通</span>
-							<span class="progress"></span>
+							<span class="progressMain"></span>
 						</li>
 						<li>
 							<span>html</span>
 							<span>精 通</span>
-							<span class="progress"></span>
+							<span class="progressMain"></span>
 						</li>
 						<li>
 							<span>javascript</span>
 							<span>精 通</span>
-							<span class="progress"></span>
+							<span class="progressMain"></span>
+						</li>
+						<li>
+							<span>vue.js</span>
+							<span>熟 练</span>
+							<span class="progressMain"></span>
+						</li>
+						<li>
+							<span>微信小程序</span>
+							<span>精 通</span>
+							<span class="progressMain"></span>
+						</li>
+					</ul>
+					<div class="minTitle">
+						辅 助 技 	能
+					</div>
+					<ul id="exSkill">
+						<li>
+							<span>JQuary</span>
+							<span>了 解</span>
+							<span class="progressEx"></span>
+						</li>
+						<li>
+							<span>nodeJs</span>
+							<span>良 好</span>
+							<span class="progressEx"></span>
 						</li>
 						<li>
 							<span>jekyll</span>
 							<span>熟 练</span>
-							<span class="progress"></span>
-						</li>
-						<li>
-							<span>php</span>
-							<span>良 好</span>
-							<span class="progress"></span>
-						</li>
-						<li>
-							<span>JQuary</span>
-							<span>熟 练</span>
-							<span class="progress"></span>
+							<span class="progressEx"></span>
 						</li>
 						<li>
 							<span>ubuntu</span>
 							<span>熟 练</span>
-							<span class="progress"></span>
+							<span class="progressEx"></span>
 						</li>
 						<li>
 							<span>centos7</span>
 							<span>良 好</span>
-							<span class="progress"></span>
+							<span class="progressEx"></span>
+						</li>
+						<li>
+							<span>echat</span>
+							<span>良 好</span>
+							<span class="progressEx"></span>
+						</li>
+						<li>
+							<span>php</span>
+							<span>了 解</span>
+							<span class="progressEx"></span>
 						</li>
 						<li>
 							<span>MySQL</span>
 							<span>了 解</span>
-							<span class="progress"></span>
+							<span class="progressEx"></span>
 						</li>
 						<li>
-							<span>vue.js</span>
+							<span>canvas</span>
 							<span>了 解</span>
-							<span class="progress"></span>
+							<span class="progressEx"></span>
 						</li>
+
 					</ul>
 				</div>
 				
@@ -404,17 +501,30 @@
 	</div>
 </body>
 <script>
-	var width = ['86%','80%','78%','72%','66%','74%','70%','63%','54%','50%'],
-		progress = document.getElementsByClassName('progress');
-	console.log(progress.length);
-	for (var i = 0; i < progress.length; i++) {
-		var beforeStyle = window.getComputedStyle(progress[i], "::before");
+	var mainWidth = ['86%','80%','78%','72%','82%'],
+		progressMain = document.getElementsByClassName('progressMain'),
+		exWidth = ['47%','65%','70%','70%','63%','66%','44%','45%','42%'],
+		progressEx = document.getElementsByClassName('progressEx');
+	console.log(progressMain.length);
+	console.log(progressEx.length);
+	for (let i = 0; i < progressMain.length; i++) {
+		let beforeStyle = window.getComputedStyle(progressMain[i], "::before");
 		// beforeStyle.width = width[i] ;
 		console.log(beforeStyle);
-		console.log(width[i]);
+		console.log(mainWidth[i]);
 
-		var style=document.createElement('style');
-		style.innerHTML=".area ul li:nth-child("+ (i+1) +") span:nth-child(3)::before{width:"+ width[i] +"}";//添加样式内容的话也可以用上面提到过的`insertRule`,相对例子里的硬编码会更优雅点。
+		let style=document.createElement('style');
+		style.innerHTML=".area ul#mainSkill li:nth-child("+ (i+1) +") span:nth-child(3)::before{content:'"+ mainWidth[i] +"';width:"+ mainWidth[i] +";line-height:20px;text-align:right;color:white;font-size:13px;box-sizing:border-box;padding-right:10px;}";//添加样式内容的话也可以用上面提到过的`insertRule`,相对例子里的硬编码会更优雅点。
+		document.head.appendChild(style);
+	}
+	for (let i = 0; i < progressEx.length; i++) {
+		let beforeStyle = window.getComputedStyle(progressEx[i], "::before");
+		// beforeStyle.width = width[i] ;
+		console.log(beforeStyle);
+		console.log(exWidth[i]);
+
+		let style=document.createElement('style');
+		style.innerHTML=".area ul#exSkill li:nth-child("+ (i+1) +") span:nth-child(3)::before{content:'"+ exWidth[i] +"';width:"+ exWidth[i] +";line-height:20px;text-align:right;color:white;font-size:13px;box-sizing:border-box;padding-right:10px;}";//添加样式内容的话也可以用上面提到过的`insertRule`,相对例子里的硬编码会更优雅点。
 		document.head.appendChild(style);
 	}
 
