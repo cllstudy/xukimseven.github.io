@@ -8,7 +8,6 @@ tags:
 - CentOS
 description: ''
 color: 'rgb(98,170,255)'
-typora-root-url: ..
 ---
 
 ### 写篇小日记

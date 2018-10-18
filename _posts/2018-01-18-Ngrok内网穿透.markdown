@@ -10,7 +10,6 @@ tags:
 description: ''
 categories:
 color: 'rgb(255,210,32)'
-typora-root-url: ..
 ---
 
 
