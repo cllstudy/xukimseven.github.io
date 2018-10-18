@@ -18,7 +18,7 @@
 		}
 		a,button{
 			outline: none;
-			text-decoration: none;
+			/*text-decoration: none;*/
 		}
 		a{
 			color: #e24407;
@@ -132,6 +132,9 @@
 		    height:40px;
 		    width: 100%;
 		    text-align: center;
+		}
+		tr.notCenter{
+			text-align: left;
 		}
 
 		.area ul li{
@@ -268,6 +271,10 @@
 			border-bottom: 10px solid #00a063;
 	        border-left: 30px solid transparent;		
 	    }
+	    .mainTable{
+	    	width: 80%;
+	    	margin: 0 0 0 auto;
+	    }
 	</style>
 </head>
 <body>
@@ -289,22 +296,22 @@
 
 				<h2>基 本 信 息<div class="line"></div></h2>
 				<div class="area">
-					<table>
-						<tr>
-							<td>男</td>
-							<td>22岁</td>
+					<table class='mainTable'>
+						<tr class="notCenter">
+							<td>性别：男</td>
+							<td>年龄：22岁</td>
 						</tr>
-						<tr>
-							<td>汉</td>
-							<td>178cm/65kg</td>
+						<tr class="notCenter">
+							<td>名族：汉</td>
+							<td>身高体重：178cm/65kg</td>
 						</tr>
-						<tr>
-							<td>浙江宁波</td>
-							<td>大学本科在读</td>
+						<tr class="notCenter">
+							<td>所在地：浙江宁波</td>
+							<td>目前学历：大学本科在读</td>
 						</tr>
-						<tr>
-							<td><a href="tel:17857024660">17857024660</a></td>
-							<td><a href="mailto:xujinqi7@gmail.com">xujinqi7@gmail.com</a></td>
+						<tr class="notCenter">
+							<td><a href="tel:17857024660">联系我：178-5702-4660</a></td>
+							<td><a href="mailto:xujinqi7@gmail.com">联系我：xujinqi7@gmail.com</a></td>
 						</tr>
 					</table>
 				</div>
@@ -372,7 +379,7 @@
 				<h2>作 品 展 示<div class="line"></div></h2>
 				<div class="area">
 					<ul>
-						<a href="https://github.com/xukimseven/HardCandy-Jekyll"><li><div class="img"></div>
+						<a href="https://github.com/xukimseven/HardCandy-Jekyll" title="点击查看"><li><div class="img"></div>
 							<div class="works">
 								<h3>HardCandy-Jekyll</h3>
 								<span style="float: left;">
@@ -382,7 +389,7 @@
 								</span>
 							</div>
 						</li></a>
-						<a href="http://www.since1105.wang/soulmusic"><li><div class="img"></div>
+						<a href="http://www.since1105.wang/soulmusic" title="点击查看"><li><div class="img"></div>
 							<div class="works">
 								<h3>Soulmusic</h3>
 								<span>
