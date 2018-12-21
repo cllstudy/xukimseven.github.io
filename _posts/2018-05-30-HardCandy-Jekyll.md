@@ -12,7 +12,7 @@ tags:
 - 前端设计
 description: ''
 color: '#234567'
-cover: 'http://pgsk8dcbt.bkt.clouddn.com/hardcandy-1.png'
+cover: 'http://blogimg.since1105.wang/hardcandy-1.png'
 ---
 
 
@@ -25,15 +25,15 @@ cover: 'http://pgsk8dcbt.bkt.clouddn.com/hardcandy-1.png'
 
 [在线预览 view demo →](https://xukimseven.github.io/)
 
-![1](http://pgsk8dcbt.bkt.clouddn.com/hardcandy-1.png)
+![1](http://blogimg.since1105.wang/hardcandy-1.png)
 
-![2](http://pgsk8dcbt.bkt.clouddn.com/hardcandy-2.png)
+![2](http://blogimg.since1105.wang/hardcandy-2.png)
 
-![3](http://pgsk8dcbt.bkt.clouddn.com/hardcandy-3.png)
+![3](http://blogimg.since1105.wang/hardcandy-3.png)
 
 想要查看手机端显示效果，扫描下方二维码浏览器打开即可
 
-![4](http://pgsk8dcbt.bkt.clouddn.com/hardcandy-4.png)
+![4](http://blogimg.since1105.wang/hardcandy-4.png)
 
 
 
@@ -152,7 +152,7 @@ cover: ''
 
 ​	此处需填写某一张图片的 `url` ，`url` 值可以是线上的某张图片，也可以是博客目录下的图片。关键是要书写正确。这张图片用于在首页下博客列表里显示，如下图。
 
-![5](http://pgsk8dcbt.bkt.clouddn.com/hardcandy-5.png)
+![5](http://blogimg.since1105.wang/hardcandy-5.png)
 
 
 
@@ -172,7 +172,7 @@ portraits: '/assets/profile.jpeg' # your portraits image file path
 
 ​	该部分显示在 `关于博主` 页面，与 `社交媒体` 一同在下图显示。
 
-![6](http://pgsk8dcbt.bkt.clouddn.com/hardcandy-6.png)
+![6](http://blogimg.since1105.wang/hardcandy-6.png)
 
 关于author：
 
@@ -225,7 +225,7 @@ description: description
 
 ​	该部分位于 `index.html` 页面，修改 `title` 、`page-title` 、`home-title`  、`description`为个人想要的信息，默认配置的显示效果如下图。
 
-![7](http://pgsk8dcbt.bkt.clouddn.com/hardcandy-7.png)
+![7](http://blogimg.since1105.wang/hardcandy-7.png)
 
 
 
@@ -333,15 +333,15 @@ client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
 
 dispus：
 
-![8](http://pgsk8dcbt.bkt.clouddn.com/hardcandy-8.png)
+![8](http://blogimg.since1105.wang/hardcandy-8.png)
 
 来必力：
 
-![9](http://pgsk8dcbt.bkt.clouddn.com/hardcandy-9.png)
+![9](http://blogimg.since1105.wang/hardcandy-9.png)
 
 Gitment评论：
 
-![10](http://pgsk8dcbt.bkt.clouddn.com/hardcandy-10.png)
+![10](http://blogimg.since1105.wang/hardcandy-10.png)
 
 ​	三款评论各有各的优势与坏处。出于显示样式与中国大陆网络环境考虑，主题默认开启 `来必力` 评论为最佳体验。当然需要填写好相关的 `livere_uid` 代码。
 
